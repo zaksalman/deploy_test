@@ -10,6 +10,7 @@ public class TestController {
 	@GetMapping("/test")
 	public String test(Model model) 
 	{
+		System.out.println("XXXX");
 		return "test";
-	}
+	} 
 }
